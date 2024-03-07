@@ -11,6 +11,7 @@ import { Link } from "react-router-dom";
 import myContext from "../../context/data/myContext";
 import SearchDialog from "../searchDialog/SearchDialog";
 import ShareDialogBox from "../shareDialogBox/ShareDialogBox";
+import myImage from '../../assets/logo2.png';
 
 
 export default function Nav() {
@@ -117,7 +118,7 @@ export default function Nav() {
                             <div className="">
                                 <Avatar
                                     key={1}
-                                    src={"/src/assets/logo2.png"}
+                                    src={myImage}
                                     alt="avatar"
                                     withBorder={true}
                                     className="p-0.5 text-red-500 w-10 h-10"

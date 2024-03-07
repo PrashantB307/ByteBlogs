@@ -3,6 +3,7 @@ import Layout from '../../../components/layout/Layout'
 import myContext from '../../../context/data/myContext';
 import { Button } from '@material-tailwind/react';
 import { Link, useNavigate } from 'react-router-dom';
+import myImage from '../../../assets/Pic.png';
 
 function Dashboard() {
     const context = useContext(myContext);
@@ -26,7 +27,7 @@ function Dashboard() {
                     <div className="left">
                         <img
                             className=" w-40 h-40  object-cover rounded-full border-2 border-pink-600 p-1"
-                            src={"/src/assets/Pic.png"} alt="profile"
+                            src={myImage} alt="profile"
                         />
                     </div>
                     <div className="right">
